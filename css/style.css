@@ -33,5 +33,40 @@ form {
     padding: 3em;
 }
 
+.testimonial img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 
+.user {
+    
+    display: flex;
+    align-items: center;
+}
 
+.user img {
+    padding: .5em;
+}
+
+.user h6 {
+    margin: 0;
+}
+
+.footer-conteiner {
+    background-color: rgb(95, 95, 162);
+    height: 100px;
+}
+
+.contattaci {
+    text-align: center;
+    padding: 1em;
+}
+
+.contattaci button {
+    background-color: transparent;
+}
+
+.contattaci button:hover {
+    background-color: white;
+}
