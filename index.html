@@ -15,7 +15,7 @@
 
   <!-- NAVBAR -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
     <div class="container-fluid">
       <img id="logo" src="assets/logobike.webp" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -78,64 +78,67 @@
     <div id="sale-section">
       <div class="heading">
         <h5>OFFERTA DELLA SETTIMANA</h5>
-        <button class="toggle">TOGGLE BTN</button>
+        <button class="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#week-offer"
+          aria-expanded="false" aria-controls="collapseExample">TOGGLE BTN</button>
       </div>
 
-      <div class="container">
-        <div class="row g-4 ">
+      <div class="container ">
+        <div id="week-offer" class="collapse">
+          <div class="row g-4 ">
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
+
+
           </div>
-
-
         </div>
       </div>
     </div>
@@ -145,79 +148,84 @@
     <div id="welcome-section">
       <div class="heading">
         <h5>WELCOME SUMMER</h5>
-        <button class="toggle">TOGGLE BTN</button>
+        <button class="toggle" data-bs-toggle="collapse" data-bs-target="#welcome-collapse" aria-expanded="false" aria-controls="welcome-collapse">TOGGLE BTN</button>
       </div>
 
       <div class="container">
-        <div class="row g-4 ">
 
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+       <div class="collapse" id="welcome-collapse">
+          <div class="row g-4 ">
+  
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="card">
+                <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2">
-            <div class="card">
-              <img src="assets/pexels-pixabay-208701.jpg" class="card-img-top" alt="vacation">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
+       </div>
+
+
       </div>
     </div>
 
@@ -225,11 +233,14 @@
 
     <div id="special-offer">
 
-      <div class="centered">
+      <div class="heading">
         <h5>OFFERTA DEL GIORNO</h5>
+        <button class="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#daily-offer"
+          aria-expanded="false" aria-controls="collapseExample">TOGGLE BTN</button>
       </div>
 
-      <div class="container">
+
+      <div id="daily-offer" class="container">
 
 
         <div class="card mb-3">
@@ -253,11 +264,15 @@
     <!-- LAST MINUTE -->
 
     <div class="last-minute">
-      <div class="centered">
-        <h5>LAST MINUTE</h5>
 
+      <div class="heading">
+        <h5>LAST MINUTE</h5>
+        <button class="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#last-minute"
+          aria-expanded="false" aria-controls="collapseExample">TOGGLE BTN</button>
       </div>
-      <div class="container">
+
+
+      <div class="container" id="last-minute">
         <div class="row g-3">
 
           <div class="col-6 col-md-3 col-lg-2">
@@ -308,7 +323,9 @@
               <h6>UTENTE</h6>
             </div>
             <div class="container">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio, delectus quis dolor placeat? Impedit, id.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae
+                aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio,
+                delectus quis dolor placeat? Impedit, id.</p>
             </div>
           </div>
           <div class="col-12">
@@ -317,7 +334,9 @@
               <h6>UTENTE</h6>
             </div>
             <div class="container">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio, delectus quis dolor placeat? Impedit, id.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae
+                aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio,
+                delectus quis dolor placeat? Impedit, id.</p>
             </div>
           </div>
           <div class="col-12">
@@ -326,7 +345,9 @@
               <h6>UTENTE</h6>
             </div>
             <div class="container">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio, delectus quis dolor placeat? Impedit, id.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus aut impedit odio. Beatae
+                aperiam corrupti excepturi? Voluptatem voluptatibus laboriosam consectetur excepturi culpa odio,
+                delectus quis dolor placeat? Impedit, id.</p>
             </div>
           </div>
 
@@ -341,21 +362,21 @@
   </main>
 
   <footer>
-      <div class="footer-conteiner">
-          <div class="container">
-            <div class="row">
-              <div class="contattaci">
-                <button>
-                  CONTATTACI
-                </button>
-                <p>
-                  ALL RIGHTS RESERVED
-                </p>
-    
-              </div>
-            </div>
+    <div class="footer-conteiner">
+      <div class="container">
+        <div class="row">
+          <div class="contattaci">
+            <button>
+              CONTATTACI
+            </button>
+            <p>
+              ALL RIGHTS RESERVED
+            </p>
+
           </div>
+        </div>
       </div>
+    </div>
   </footer>
 
 
