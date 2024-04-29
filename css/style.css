@@ -12,9 +12,9 @@ body {
 form {
     font-size: 26px;
 }
-
+ 
 #logo {
-    height: 80px;
+    height: 70px;
     padding-right: .5em;
 }
 
@@ -39,6 +39,10 @@ form {
     border-radius: 50%;
 }
 
+.testimonial {
+    padding-bottom: 4em;
+}
+
 .user {
     
     display: flex;
@@ -54,13 +58,13 @@ form {
 }
 
 .footer-conteiner {
-    background-color: rgb(95, 95, 162);
+    background-color: rgb(178, 178, 255);
     height: 100px;
 }
 
 .contattaci {
     text-align: center;
-    padding: 1em;
+    padding-top: 1em;
 }
 
 .contattaci button {

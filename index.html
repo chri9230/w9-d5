@@ -13,6 +13,8 @@
 
 <body>
 
+
+
   <!-- NAVBAR -->
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
@@ -22,7 +24,7 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse bg-body-tertiary" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -35,8 +37,12 @@
               Dropdown
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#jumbotron">JUMBOTRON</a></li>
+              <li><a class="dropdown-item" href="#sale-section">OFFERTA DELLA SETTIMANA</a></li>
+              <li><a class="dropdown-item" href="#welcome-section">WELCOME SUMMER</a></li>
+              <li><a class="dropdown-item" href="#special-offer">OFFERTA DEL GIORNO</a></li>
+              <li><a class="dropdown-item" href="#last-minute">LAST MINUTE</a></li>
+              <li><a class="dropdown-item" href="#testimonial">RECENSIONI</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -231,7 +237,7 @@
 
     <!-- OFFERTE -->
 
-    <div id="special-offer">
+    <div id="special-offer" class="d-sm-none d-md-block">
 
       <div class="heading">
         <h5>OFFERTA DEL GIORNO</h5>
@@ -311,7 +317,7 @@
 
     <!-- TESTIMONIAL -->
 
-    <div class="testimonial">
+    <div id="testimonial" class="testimonial">
       <div class="centered">
         <h5>TESTIMONIAL</h5>
       </div>
@@ -366,9 +372,8 @@
       <div class="container">
         <div class="row">
           <div class="contattaci">
-            <button>
-              CONTATTACI
-            </button>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">CONTATTACI</button>
+          
             <p>
               ALL RIGHTS RESERVED
             </p>
@@ -377,7 +382,35 @@
         </div>
       </div>
     </div>
+
+    <!-- BUTTON CONTATTACI MODALE -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Richiesta informazioni</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Verrai contattato al più presto da un nostro operatore ! </label>
+                <input type="email" class="form-control" id="recipient-name" placeholder="Inserisci qui la tua email..">
+              </div>
+              
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send request</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
+
 
 
 
